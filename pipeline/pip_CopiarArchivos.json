@@ -98,7 +98,13 @@
 							"inputs": [
 								{
 									"referenceName": "Copiar_de__Input_A_CapaBronce",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"Nombre_de_Archivo": {
+											"value": "@item().name",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
