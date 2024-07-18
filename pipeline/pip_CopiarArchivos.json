@@ -104,7 +104,13 @@
 							"outputs": [
 								{
 									"referenceName": "Pegar_de_Input_a_capabronce",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"Nombre_de_Archivo": {
+											"value": "@item().name",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
